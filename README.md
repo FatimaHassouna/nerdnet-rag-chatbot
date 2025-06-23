@@ -4,18 +4,18 @@ NerdNET is a full-stack Retrieval-Augmented Generation (RAG) chatbot designed to
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔍 Document-grounded Q&A using OpenAI embeddings (`text-embedding-3-large`)
-- 🖼️ Image generation based on user queries
-- 🔊 Text-to-speech responses
-- 📊 Session-aware analytics dashboard (usage metrics, chat history)
-- 🔐 User authentication with SQLite
-- 🧠 PDF parsing + persistent vector indexing
+-  Document-grounded Q&A using OpenAI embeddings (`text-embedding-3-large`)
+- Image generation based on user queries
+-  Text-to-speech responses
+-  Session-aware analytics dashboard (usage metrics, chat history)
+-  User authentication with SQLite
+- PDF parsing + persistent vector indexing
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Area             | Tools / Libraries                      |
 |------------------|----------------------------------------|
@@ -29,7 +29,7 @@ NerdNET is a full-stack Retrieval-Augmented Generation (RAG) chatbot designed to
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/yourusername/nerdnet-chatbot.git
