@@ -1,0 +1,49 @@
+/* Sidebar styling */
+.stSidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* Input box */
+.stTextInput input {
+    border-radius: 0px; /* Set to 0 for rectangle */
+    padding: 10px 15px;
+}
+
+/* Buttons */
+.stButton button {
+    border-radius: 0px; /* Set to 0 for rectangle */
+    background-color: #4e79a7;
+    color: white;
+}
+
+/* Chat message box */
+.chat-message {
+    border-radius: 0px; /* Set to 0 for rectangle */
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+/* User messages */
+.user-message {
+    background-color: #f0f2f6;
+    border-left: 4px solid #4e79a7;
+}
+
+/* Assistant messages */
+.assistant-message {
+    background-color: #e6f3ff;
+    border-left: 4px solid #2e7d32;
+}
+
+/* Buttons in the sidebar for new chat */
+.stButton button {
+    border-radius: 0px; /* Set to 0 for rectangle */
+}
+
+/* Sidebar chat buttons */
+.stSidebar .stButton button {
+    border-radius: 0px !important;  /* Force rectangular shape */
+    width: 100%;                   /* Full width of sidebar */
+    margin-bottom: 8px;  
+}

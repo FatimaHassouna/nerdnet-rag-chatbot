@@ -1,0 +1,43 @@
+{
+  "hibs": [
+    {
+      "role": "system",
+      "content": "Chat started.",
+      "timestamp": "2025-04-19T22:09:03.084857"
+    },
+    {
+      "role": "user",
+      "content": "what is the transport layer responsible for? give examples\n",
+      "timestamp": "2025-04-19T22:24:31.084101"
+    },
+    {
+      "role": "assistant",
+      "content": "The transport layer is responsible for the end-to-end delivery of data packets. It ensures that data is transmitted seamlessly and error-free from one point to another over a network. The main responsibilities of the transport layer include:\n\n1. Segmentation and Reassembly: The transport layer divides data into suitable packet sizes for transmission. The receiving end reassembles the packets back into the original data.\n\n2. Service Point Addressing: The transport layer header includes a type of address called a port address. This helps deliver the data to the correct application process on the destination computer.\n\n3. Connection Control: It can be either connection-oriented, where a connection is established between the source and destination before transferring data, or connectionless, where data is transferred without establishing a connection.\n\n4. Flow Control: It prevents the sender from overwhelming the receiver by sending data at a rate faster than it can process and accept.\n\n5. Error Control: The transport layer ensures error-free data transmission. It performs error checking using checksums and requests retransmission if any data is found to be damaged or lost.\n\n6. Multiplexing: Multiple data streams from different applications are transmitted over the network simultaneously.\n\nExamples of protocols operating at the transport layer include Transmission Control Protocol (TCP) and User Datagram Protocol (UDP). TCP is a connection-oriented protocol that provides reliable data transfer, while UDP is a connectionless protocol that provides a fast but less reliable transfer.\n\nSources:\n- Page 223 from Computer Networking: A Top-Down Approach\n- Page 224 from Computer Networking: A Top-Down Approach",
+      "timestamp": "2025-04-19T22:29:25.691824"
+    }
+  ],
+  "Chat 2": [
+    {
+      "role": "system",
+      "content": "Chat started.",
+      "timestamp": "2025-04-21T15:48:36.295263"
+    }
+  ],
+  "default": [
+    {
+      "role": "system",
+      "content": "Chat started.",
+      "timestamp": "2025-04-21T16:48:35.206319"
+    },
+    {
+      "role": "user",
+      "content": "what are the network layers/",
+      "timestamp": "2025-04-21T16:49:17.653876"
+    },
+    {
+      "role": "assistant",
+      "content": "The network layers refer to the architectural layers defined in the Open Systems Interconnection (OSI) model, which breaks down the tasks involved in transmitting data over a network. The OSI model consists of seven layers:\n\n1. Physical Layer: The lowest layer of the OSI model, it deals with the physical characteristics of the transmission medium. It defines the electrical, mechanical, procedural, and functional specifications for activating, maintaining, and deactivating the physical link.\n\n2. Data Link Layer: This layer is responsible for node-to-node data transfer, error detection, and error correction. It ensures that data is delivered across the physical links in the network correctly.\n\n3. Network Layer: It is responsible for the delivery of packets from the source to the destination. It determines the best path to route the packets.\n\n4. Transport Layer: This layer is responsible for delivering data from process to process. It provides end-to-end data transport services and can establish a logical connection between the sending host and destination host on an internetwork.\n\n5. Session Layer: It establishes, manages, and terminates connections between applications at each end. It provides its services to the presentation layer.\n\n6. Presentation Layer: It transforms data into the form that the application accepts. This layer formats and encrypts data to be sent across a network.\n\n7. Application Layer: The highest layer of the OSI model, it provides services for an application to ensure that effective communication with another application process on a network is possible. This layer interacts with software applications that implement a communicating component.\n\nSources:\n- Page 80 from Computer Networking: A Top-Down Approach\n- Page 78 from Computer Networking: A Top-Down Approach",
+      "timestamp": "2025-04-21T16:49:54.717850"
+    }
+  ]
+}
